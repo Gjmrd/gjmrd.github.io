@@ -40,6 +40,30 @@
         "comment" : "Иногда захожу поскролить свою ленту."
     },
     {
+        "name" : "YouTube",
+        "link" : "https://www.youtube.com/channel/UC_vKzuMHp7GA-mqyFc46QRg",
+        "label" : "Mr. Modest",
+        "logo" : "youtube.png",
+        "activity" : "~",
+        "comment" : ""
+    },
+    {
+        "name" : "Facebook",
+        "link" : "https://www.facebook.com/mrm0dest",
+        "label" : "Камиль Бабаев",
+        "logo" : "facebook.png",
+        "activity" : "1 месяц",
+        "comment" : "Никаких уведомлений от сайта не получаю."
+    },
+    {
+        "name" : "Twitter",
+        "link" : "https://twitter.com/MrM0dest",
+        "label" : "mrm0dest",
+        "logo" : "twitter.png",
+        "activity" : "~",
+        "comment" : ""
+    },
+    {
         "name" : "Shikimori",
         "link" : "https://shikimori.org/MrModest",
         "label" : "MrModest",

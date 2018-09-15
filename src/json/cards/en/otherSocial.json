@@ -40,6 +40,30 @@
         "comment" : "Sometime scroll my front page."
     },
     {
+        "name" : "YouTube",
+        "link" : "https://www.youtube.com/channel/UC_vKzuMHp7GA-mqyFc46QRg",
+        "label" : "Mr. Modest",
+        "logo" : "youtube.png",
+        "activity" : "~",
+        "comment" : ""
+    },
+    {
+        "name" : "Facebook",
+        "link" : "https://www.facebook.com/mrm0dest",
+        "label" : "Kamil Babaev",
+        "logo" : "facebook.png",
+        "activity" : "~",
+        "comment" : "Don't get notifications"
+    },
+    {
+        "name" : "Twitter",
+        "link" : "https://twitter.com/MrM0dest",
+        "label" : "mrm0dest",
+        "logo" : "twitter.png",
+        "activity" : "~",
+        "comment" : ""
+    },
+    {
         "name" : "Shikimori",
         "link" : "https://shikimori.org/MrModest",
         "label" : "MrModest",

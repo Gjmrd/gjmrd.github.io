@@ -6,6 +6,7 @@ class Card extends Component {
     const { name, link, label, logo, activity, comment } = this.props.card;
     return (
       <div className="col-md-4">
+      <a href={link} target="_blank">
         <div className="card">
           <div className="card-title">
             {name}
@@ -16,7 +17,7 @@ class Card extends Component {
             </div>
             <div className="card-content">
               <div className="card-label">
-                <a href={link} target="_blank">{label}</a>
+                {label}
               </div>
               <div className="card-activity">
                 {activity}
@@ -27,6 +28,7 @@ class Card extends Component {
             </div>
           </div>
         </div>
+        </a>
       </div>
     );
   }

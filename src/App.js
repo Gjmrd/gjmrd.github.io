@@ -23,10 +23,9 @@ class App extends Component {
   componentDidMount() {
     const lang = navigator.language || navigator.userLanguage;
     if (lang.toLowerCase().match('ru') === null) {
-      this.setState({ locale: 'en' });
-      document.title = "MrModest | Contacts";
+      this.setEn();
     } else {
-      document.title = "MrModest | Контакты";
+      this.setRu();
     }
   }
   switchLanguage = (locale) => {
@@ -35,19 +34,17 @@ class App extends Component {
   };
   setRu = () => {
     this.switchLanguage('ru');
-    document.title = "MrModest | Контакты";
-    
   }
   setEn = () => {
     this.switchLanguage('en');
-    document.title = "MrModest | Contacts";
   }
   render() {
     const { locale } = this.state;
-    const { socialTitle, otherSocialTitle, langTitle } = locale === 'ru' ? ruLocale : enLocale;
+    const localization = locale === 'ru' ? ruLocale : enLocale; 
+    const { socialTitle, otherSocialTitle, langTitle, documentTitle } = localization;
     const social = locale === 'ru' ? ruSocial : enSocial;
     const otherSocial = locale === 'ru' ? ruOtherSocial : enOtherSocial;
-    document.title = locale === 'ru' ? "MrModest | Контакты" : "MrModest | Contacts";
+    document.title = documentTitle;
     return (
       <div className="wrapper">
         <div className="content container">
@@ -60,10 +57,10 @@ class App extends Component {
           </div>
           <br />
           <hr />
-          <Description locale={locale} />
+          <Description localization={localization} />
           <hr />
-          <SocialBlock key={1} contacts={social} title={socialTitle} />
-          <SocialBlock key={2} contacts={otherSocial} title={otherSocialTitle} />
+          <SocialBlock contacts={social} title={socialTitle} />
+          <SocialBlock contacts={otherSocial} title={otherSocialTitle} />
         </div>
         <FooterBlock />
       </div>

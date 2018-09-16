@@ -1,5 +1,7 @@
 {
+    "documentTitle" : "MrModest | Contacts",
     "socialTitle" : "For communication",
     "otherSocialTitle" : "Other contacts",
-    "langTitle" : "Language"
+    "langTitle" : "Language",
+    "description" : "Almost all usernames in cards is clickable, links go to the profiles."
 }

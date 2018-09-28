@@ -16,11 +16,28 @@
         "comment" : "Иногда могут быть проблемы с получением уведомлений."
     },
     {
+<<<<<<< HEAD
         "name" : "Эл. почта",
         "link" : "mailto:babaevkamil@gmail.com",
         "label" : "babaevkamil@gmail.com",
         "logo" : "gmail.png",
         "activity" : "1 день",
         "comment" : "Любые вопросы."
+=======
+        "name" : "Gmail",
+        "link" : "mailto:magomedovgh@gmail.com",
+        "label" : "Гаджимурад Магомедов",
+        "logo" : "gmail.png",
+        "activity" : "1 день",
+        "comment" : "Сюда можно писать по поводу работы или учёбы"
+    },
+    {
+        "name" : "Github",
+        "link" : "https://github.com/gjmrd",
+        "label" : "Gjmrd",
+        "logo" : "github.png",
+        "activity" : "1-2 дня",
+        "comment" : "Сюда сбрасываю весь код"
+>>>>>>> upstream/master
     }
 ]

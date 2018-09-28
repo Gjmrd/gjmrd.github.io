@@ -16,11 +16,28 @@
         "comment" : "Sometime can be trouble with getting notifications."
     },
     {
+<<<<<<< HEAD
         "name" : "Email",
         "link" : "mailto:babaevkamil@gmail.com",
         "label" : "babaevkamil@gmail.com",
         "logo" : "gmail.png",
         "activity" : "1 day",
         "comment" : "Any questions"
+=======
+        "name" : "Gmail",
+        "link" : "mailto:magomedovgh@gmail.com",
+        "label" : "Gadjimurad Magomedov",
+        "logo" : "gmail.png",
+        "activity" : "1 day",
+        "comment" : "You can write here about the work or study"
+    },
+    {
+        "name" : "Github",
+        "link" : "https://github.com/gjmrd",
+        "label" : "Gjmrd",
+        "logo" : "github.png",
+        "activity" : "1-2 days",
+        "comment" : "All code here"
+>>>>>>> upstream/master
     }
 ]

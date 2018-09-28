@@ -8,8 +8,8 @@ Clone the __**[original](https://github.com/Gjmrd/gjmrd.github.io)**__ repo and 
 
 To change the card information you should go to [/src/json/cards](https://github.com/Gjmrd/gjmrd.github.io/tree/master/src/json/cards) <br />
 To change localization phrases you should go to [/src/json/localization](https://github.com/Gjmrd/gjmrd.github.io/tree/master/src/json/localization) <br />
-You don't have to recompile project to commit the changes
-Changes will be loaded when page is refreshed. 
+You don't have to recompile project to commit the changes <br />
+They will be loaded when page is refreshed. 
 
 # Other changes
 

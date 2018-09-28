@@ -31,6 +31,8 @@ class App extends Component {
     const ruLocale = (await axios.get('/src/json/localization/ru-Ru.json')).data;
     const enLocale = (await axios.get('/src/json/localization/en-En.json')).data;
 
+    console.log("download complete");
+
     this.setState({ ruSocial, ruOtherSocial, enSocial, enOtherSocial, ruLocale, enLocale });
   }
 

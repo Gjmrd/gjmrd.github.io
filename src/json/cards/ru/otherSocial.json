@@ -1,16 +1,5 @@
 [
     {
-<<<<<<< HEAD
-=======
-        "name" : "Discord",
-        "link" : "Gjmrd#3893",
-        "label" : "Gjmrd#3893",
-        "logo" : "discord.png",
-        "activity" : "2-3 дня",
-        "comment" : ""
-    },
-    {
->>>>>>> upstream/master
         "name" : "Instagram",
         "link" : "https://instagram.com/mrm0dest",
         "label" : "mrm0dest",

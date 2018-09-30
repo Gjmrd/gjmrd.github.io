@@ -1,12 +1,12 @@
 {
-  "main.css": "static/css/main.456e5682.css",
-  "main.css.map": "static/css/main.456e5682.css.map",
-  "main.js": "static/js/main.52723eca.js",
-  "main.js.map": "static/js/main.52723eca.js.map",
+  "main.css": "static/css/main.9c0f0e5d.css",
+  "main.css.map": "static/css/main.9c0f0e5d.css.map",
+  "main.js": "static/js/main.1b2cc4cf.js",
+  "main.js.map": "static/js/main.1b2cc4cf.js.map",
   "static\\media\\4pda.png": "static/media/4pda.3dd1e90a.png",
   "static\\media\\BattleNet.ico": "static/media/BattleNet.323deab6.ico",
   "static\\media\\SF-UI-Display-Regular.otf": "static/media/SF-UI-Display-Regular.3f37c5de.otf",
-  "static\\media\\Thumbs.db": "static/media/Thumbs.6c2fdc65.db",
+  "static\\media\\Thumbs.db": "static/media/Thumbs.77499633.db",
   "static\\media\\anilist.png": "static/media/anilist.cacf4bc6.png",
   "static\\media\\discord.png": "static/media/discord.7f1a4a7f.png",
   "static\\media\\github.png": "static/media/github.9ac279f9.png",
@@ -17,5 +17,6 @@
   "static\\media\\reddit.png": "static/media/reddit.87e970e4.png",
   "static\\media\\sm SFNSDisplay-Bold.ttf": "static/media/sm SFNSDisplay-Bold.a9e4f259.ttf",
   "static\\media\\steam.png": "static/media/steam.0c1bf7f4.png",
-  "static\\media\\telegram.png": "static/media/telegram.473b9e3e.png"
+  "static\\media\\telegram.png": "static/media/telegram.473b9e3e.png",
+  "static\\media\\twitter.png": "static/media/twitter.b757f2bc.png"
 }

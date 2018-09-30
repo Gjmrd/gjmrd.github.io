@@ -1,51 +1,130 @@
 [
     {
-        "name" : "Discord",
-        "link" : "Gjmrd#3893",
-        "label" : "Gjmrd#3893",
-        "logo" : "discord.png",
-        "activity" : "2-3 days",
-        "comment" : ""
-    },
-    {
         "name" : "Instagram",
-        "link" : "https://instagram.com/gjmrd",
-        "label" : "Gjmrd",
+        "link" : "https://instagram.com/mrm0dest",
+        "label" : "mrm0dest",
         "logo" : "instagram.png",
-        "activity" : "1 day",
-        "comment" : "All photos here"
+        "activity" : "~",
+        "comment" : "Sometimes posting new photos."
     },
     {
-        "name" : "Battle.net",
-        "link" : "MementoMori#21269",
-        "label" : "MementoMori#21269",
-        "logo" : "BattleNet.ico",
-        "activity" : "1 day",
-        "comment" : "Overwatch/Hearthstone"
+        "name" : "Discord",
+        "link" : "MrModest#5720",
+        "label" : "MrModest#5720",
+        "logo" : "discord.png",
+        "activity" : "very rarely",
+        "comment" : "If you need me in Discord, invite me from another contact way."
+    },
+    {
+        "name" : "Github",
+        "link" : "https://github.com/MrModest",
+        "label" : "MrModest",
+        "logo" : "github.png",
+        "activity" : "~",
+        "comment" : "All my public projects is here."
     },
     {
         "name" : "Steam",
-        "link" : "https://steamcommunity.com/id/gjmrd",
-        "label" : "Gjmrd",
+        "link" : "https://steamcommunity.com/id/mrmodest",
+        "label" : "MrModest",
         "logo" : "steam.png",
-        "activity" : ">30 days",
-        "comment" : "I am very rare here"
+        "activity" : "1 month",
+        "comment" : "Rarely be here. Almost don't play MMO games."
+    },
+    {
+        "name" : "Reddit",
+        "link" : "https://www.reddit.com/user/FckngModest",
+        "label" : "/u/FckngModest",
+        "logo" : "reddit.png",
+        "activity" : "1 week",
+        "comment" : "Sometime scroll my front page."
+    },
+    {
+        "name" : "YouTube",
+        "link" : "https://www.youtube.com/channel/UC_vKzuMHp7GA-mqyFc46QRg",
+        "label" : "Mr. Modest",
+        "logo" : "youtube.png",
+        "activity" : "~",
+        "comment" : ""
+    },
+    {
+        "name" : "Facebook",
+        "link" : "https://www.facebook.com/mrm0dest",
+        "label" : "Kamil Babaev",
+        "logo" : "facebook.png",
+        "activity" : "~",
+        "comment" : "Don't get notifications"
+    },
+    {
+        "name" : "Twitter",
+        "link" : "https://twitter.com/MrM0dest",
+        "label" : "mrm0dest",
+        "logo" : "twitter.png",
+        "activity" : "~",
+        "comment" : ""
     },
     {
         "name" : "Shikimori",
-        "link" : "https://shikimori.org/Gjmrd",
-        "label" : "Gjmrd",
+        "link" : "https://shikimori.org/MrModest",
+        "label" : "MrModest",
         "logo" : "shikimori.png",
-        "activity" : ">7 days",
-        "comment" : "I am very rare here"
+        "activity" : "1 week",
+        "comment" : "The most actual anime/manga list."
     },
     {
         "name" : "MyAnimeList",
-        "link" : "https://myanimelist.net/profile/Gjmrd",
-        "label" : "Gjmrd",
+        "link" : "https://myanimelist.net/profile/MrModest",
+        "label" : "MrModest",
         "logo" : "myanimelist.png",
-        "activity" : ">30 days",
-        "comment" : "usually i use shiki"
+        "activity" : "~",
+        "comment" : "Time to time actualizing list from shikimori."
+    },
+    {
+        "name" : "Kitsu",
+        "link" : "https://kitsu.io/users/MrModest",
+        "label" : "MrModest",
+        "logo" : "kitsu.png",
+        "activity" : "~",
+        "comment" : "Time to time actualizing list from shikimori."
+    },
+    {
+        "name" : "AniList",
+        "link" : "https://anilist.co/user/MrModest/",
+        "label" : "MrModest",
+        "logo" : "anilist.png",
+        "activity" : "~",
+        "comment" : "Time to time actualizing list from shikimori."
+    },
+    {
+        "name" : "StackOverflow [Ru]",
+        "link" : "https://ru.stackoverflow.com/users/233980/mrmodest",
+        "label" : "MrModest",
+        "logo" : "stackexchange.png",
+        "activity" : "~",
+        "comment" : ""
+    },
+    {
+        "name" : "StackOverflow [En]",
+        "link" : "https://stackoverflow.com/users/7422280/mrmodest",
+        "label" : "MrModest",
+        "logo" : "stackexchange.png",
+        "activity" : "~",
+        "comment" : ""
+    },
+    {
+        "name" : "4PDA",
+        "link" : "http://4pda.ru/forum/index.php?showuser=2525102",
+        "label" : "babaevkamil",
+        "logo" : "4pda.png",
+        "activity" : "~",
+        "comment" : ""
+    },
+    {
+        "name" : "Pikabu",
+        "link" : "https://pikabu.ru/@MrModest",
+        "label" : "MrModest",
+        "logo" : "pikabu.png",
+        "activity" : " - ",
+        "comment" : "For quite some time now I don't go to the site at all."
     }
-
 ]

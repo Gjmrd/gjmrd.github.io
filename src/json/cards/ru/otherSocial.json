@@ -1,50 +1,130 @@
 [
     {
-        "name" : "Discord",
-        "link" : "Gjmrd#3893",
-        "label" : "Gjmrd#3893",
-        "logo" : "discord.png",
-        "activity" : "2-3 дня",
-        "comment" : ""
-    },
-    {
         "name" : "Instagram",
-        "link" : "https://instagram.com/gjmrd",
-        "label" : "Gjmrd",
+        "link" : "https://instagram.com/mrm0dest",
+        "label" : "mrm0dest",
         "logo" : "instagram.png",
-        "activity" : "1 день",
-        "comment" : "Тут все фотки"
+        "activity" : "~",
+        "comment" : "Не очень часто, но порой выкладываю новые фото."
     },
     {
-        "name" : "Battle.net",
-        "link" : "MementoMori#21269",
-        "label" : "MementoMori#21269",
-        "logo" : "BattleNet.ico",
-        "activity" : "1 день",
-        "comment" : "Overwatch/Hearthstone"
+        "name" : "Discord",
+        "link" : "MrModest#5720",
+        "label" : "MrModest#5720",
+        "logo" : "discord.png",
+        "activity" : "очень редко",
+        "comment" : "Если нужен в Discord'е, то лучше не ждать, а позвать туда специально (другим способом)"
+    },
+    {
+        "name" : "Github",
+        "link" : "https://github.com/MrModest",
+        "label" : "MrModest",
+        "logo" : "github.png",
+        "activity" : "~",
+        "comment" : "Все свои проекты, что можно выкладывать в публичный доступ, обычно выкладываю сюда."
     },
     {
         "name" : "Steam",
-        "link" : "https://steamcommunity.com/id/gjmrd",
-        "label" : "Gjmrd",
+        "link" : "https://steamcommunity.com/id/mrmodest",
+        "label" : "MrModest",
         "logo" : "steam.png",
-        "activity" : ">30 дней",
-        "comment" : "захожу очень редко"
+        "activity" : "1 месяц",
+        "comment" : "Бываю довольно редко. В онлайн игры практически не играю."
+    },
+        {
+        "name" : "Reddit",
+        "link" : "https://www.reddit.com/user/FckngModest",
+        "label" : "/u/FckngModest",
+        "logo" : "reddit.png",
+        "activity" : "1 неделя",
+        "comment" : "Иногда захожу поскролить свою ленту."
+    },
+    {
+        "name" : "YouTube",
+        "link" : "https://www.youtube.com/channel/UC_vKzuMHp7GA-mqyFc46QRg",
+        "label" : "Mr. Modest",
+        "logo" : "youtube.png",
+        "activity" : "~",
+        "comment" : ""
+    },
+    {
+        "name" : "Facebook",
+        "link" : "https://www.facebook.com/mrm0dest",
+        "label" : "Камиль Бабаев",
+        "logo" : "facebook.png",
+        "activity" : "1 месяц",
+        "comment" : "Никаких уведомлений от сайта не получаю."
+    },
+    {
+        "name" : "Twitter",
+        "link" : "https://twitter.com/MrM0dest",
+        "label" : "mrm0dest",
+        "logo" : "twitter.png",
+        "activity" : "~",
+        "comment" : ""
     },
     {
         "name" : "Shikimori",
-        "link" : "https://shikimori.org/Gjmrd",
-        "label" : "Gjmrd",
+        "link" : "https://shikimori.org/MrModest",
+        "label" : "MrModest",
         "logo" : "shikimori.png",
-        "activity" : ">7 days",
-        "comment" : "Редко бываю тут"
+        "activity" : "1 неделя",
+        "comment" : "Самый актуальный список, который затем импортируется на другие сервисы."
     },
     {
         "name" : "MyAnimeList",
-        "link" : "https://myanimelist.net/profile/Gjmrd",
-        "label" : "Gjmrd",
+        "link" : "https://myanimelist.net/profile/MrModest",
+        "label" : "MrModest",
         "logo" : "myanimelist.png",
-        "activity" : ">30 days",
-        "comment" : "Обычно я использую shiki"
+        "activity" : "~",
+        "comment" : "Захожу редко, только ради актуализации списка."
+    },
+    {
+        "name" : "Kitsu",
+        "link" : "https://kitsu.io/users/MrModest",
+        "label" : "MrModest",
+        "logo" : "kitsu.png",
+        "activity" : "~",
+        "comment" : "Захожу редко, только ради актуализации списка."
+    },
+    {
+        "name" : "AniList",
+        "link" : "https://anilist.co/user/MrModest/",
+        "label" : "MrModest",
+        "logo" : "anilist.png",
+        "activity" : "~",
+        "comment" : "Захожу редко, только ради актуализации списка."
+    },
+    {
+        "name" : "StackOverflow [Ru]",
+        "link" : "https://ru.stackoverflow.com/users/233980/mrmodest",
+        "label" : "MrModest",
+        "logo" : "stackexchange.png",
+        "activity" : "~",
+        "comment" : ""
+    },
+    {
+        "name" : "StackOverflow [En]",
+        "link" : "https://stackoverflow.com/users/7422280/mrmodest",
+        "label" : "MrModest",
+        "logo" : "stackexchange.png",
+        "activity" : "~",
+        "comment" : ""
+    },
+    {
+        "name" : "4PDA",
+        "link" : "http://4pda.ru/forum/index.php?showuser=2525102",
+        "label" : "babaevkamil",
+        "logo" : "4pda.png",
+        "activity" : "~",
+        "comment" : ""
+    },
+    {
+        "name" : "Pikabu",
+        "link" : "https://pikabu.ru/@MrModest",
+        "label" : "MrModest",
+        "logo" : "pikabu.png",
+        "activity" : " - ",
+        "comment" : "Уже довольно продолжительное время вообще не захожу на сайт."
     }
 ]

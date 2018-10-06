@@ -14,29 +14,43 @@ class App extends Component {
   state = {
     locale: 'ru',
   };
+
   async componentDidMount() {
     const lang = navigator.language || navigator.userLanguage;
+
     if (lang.toLowerCase().match('ru') === null) {
       this.setEn();
     } else {
       this.setRu();
     }
 
-    const ruSocial = (await axios.get('/src/json/cards/ru/social.json')).data;
-    const ruOtherSocial = (await axios.get('/src/json/cards/ru/otherSocial.json')).data;
+    console.log("All cards download started.");
 
-    const enSocial = (await axios.get('/src/json/cards/en/social.json')).data;
-    const enOtherSocial = (await axios.get('/src/json/cards/en/otherSocial.json')).data;
+    const promisesArr = [
+      axios.get('/src/json/cards/ru/social.json'),
+      axios.get('/src/json/cards/ru/otherSocial.json'),
 
-    const ruLocale = (await axios.get('/src/json/localization/ru-Ru.json')).data;
-    const enLocale = (await axios.get('/src/json/localization/en-En.json')).data;
+      axios.get('/src/json/cards/en/social.json'),
+      axios.get('/src/json/cards/en/otherSocial.json'),
 
-    console.log("download complete");
+      axios.get('/src/json/localization/ru-Ru.json'),
+      axios.get('/src/json/localization/en-En.json'),
+    ];
+    const responseArr = await Promise.all(promisesArr);
+
+    const ruSocial = responseArr[0].data;
+    const ruOtherSocial = responseArr[1].data;
+
+    const enSocial = responseArr[2].data;
+    const enOtherSocial = responseArr[3].data;
+
+    const ruLocale = responseArr[4].data;
+    const enLocale = responseArr[5].data;
+
+    console.log("All cards download completed.");
 
     this.setState({ ruSocial, ruOtherSocial, enSocial, enOtherSocial, ruLocale, enLocale });
   }
-
-
 
   switchLanguage = (locale) => {
     this.setState({ locale });
@@ -48,6 +62,7 @@ class App extends Component {
   setEn = () => {
     this.switchLanguage('en');
   }
+
   render() {
    
     const { locale, ruLocale, enLocale, ruSocial, ruOtherSocial, enSocial, enOtherSocial } = this.state;

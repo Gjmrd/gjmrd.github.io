@@ -22,5 +22,13 @@
         "logo" : "gmail.png",
         "activity" : "1 day",
         "comment" : "Any questions"
+    },
+    {
+        "name" : "LinkedIn",
+        "link" : "https://www.linkedin.com/in/mrmodest/",
+        "label" : "Kamil Babaev",
+        "logo" : "linkedin.png",
+        "activity" : "1 week",
+        "comment" : "~"
     }
 ]

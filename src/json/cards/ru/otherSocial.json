@@ -64,11 +64,27 @@
         "comment" : ""
     },
     {
+        "name" : "Wishlist",
+        "link" : "http://mywishlist.ru/wishlist/mrmodest",
+        "label" : "MrModest",
+        "logo" : "gift_box.png",
+        "activity" : "~",
+        "comment" : "Так называемый \"вишлист\". Список вещей, которые можно мне подарить, если не знаешь что."
+    },
+    {
+        "name" : "Coub",
+        "link" : "https://coub.com/mrmodest",
+        "label" : "MrModest",
+        "logo" : "coub.png",
+        "activity" : "~",
+        "comment" : "Короткие видосы до 15 секунд под музыку."
+    },
+    {
         "name" : "Shikimori",
         "link" : "https://shikimori.org/MrModest",
         "label" : "MrModest",
         "logo" : "shikimori.png",
-        "activity" : "1 неделя",
+        "activity" : "~",
         "comment" : "Самый актуальный список, который затем импортируется на другие сервисы."
     },
     {

@@ -64,11 +64,27 @@
         "comment" : ""
     },
     {
+        "name" : "Wishlist",
+        "link" : "http://mywishlist.ru/wishlist/mrmodest",
+        "label" : "MrModest",
+        "logo" : "gift_box.png",
+        "activity" : "~",
+        "comment" : "A list of things that you can gift me if you don't know what."
+    },
+    {
+        "name" : "Coub",
+        "link" : "https://coub.com/mrmodest",
+        "label" : "MrModest",
+        "logo" : "coub.png",
+        "activity" : "~",
+        "comment" : "Short video (up to 15 minutes) with music."
+    },
+    {
         "name" : "Shikimori",
         "link" : "https://shikimori.org/MrModest",
         "label" : "MrModest",
         "logo" : "shikimori.png",
-        "activity" : "1 week",
+        "activity" : "~",
         "comment" : "The most actual anime/manga list."
     },
     {

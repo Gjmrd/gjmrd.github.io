@@ -1,5 +1,7 @@
 My social links page: https://mrmodest.github.io/
 
+More readable version of code for this page: https://github.com/MrModest/contacts/tree/master
+
 #  Installation
 
 Clone the __**[original](https://github.com/Gjmrd/gjmrd.github.io)**__ repo and deploy. 

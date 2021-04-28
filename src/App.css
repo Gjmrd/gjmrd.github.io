@@ -1,6 +1,6 @@
 body {
 	font-family: 'SFThin';
-	background-color: rgba(242, 242, 242, 0.5);
+	background-color: rgb(255, 255, 255);
 }
 
 h1, h4 {
@@ -19,12 +19,12 @@ h1, h4 {
 
 .lang-switch {
 	text-align: center;
-	border: 2px solid grey;
+	border: 2px solid rgb(161, 147, 147);
 	width: 25%;
 	margin: 0 auto;
 	float:left;
 	cursor: pointer;
-	transition: 200ms;
+	transition: 350ms;
 }
 
 .lang-switch.ru {
@@ -36,7 +36,7 @@ h1, h4 {
 }
 
 .lang-switch:hover {
-	background-color:#bbbbbb;
+	background-color: #afc6fc;
 	color: white;
 	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
 }
@@ -54,6 +54,13 @@ h1, h4 {
 	transition: 500ms;
 	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .1);
 	height: 160px;
+	border-radius: 1.25rem;
+	height: fit-content;
+	background-color: #f2f4f9;
+}
+
+.blockPadding {
+	padding: 0.5em 1.5em;
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -68,21 +75,21 @@ h1, h4 {
 }
 
 .card:hover {
-	box-shadow: 25px 15px 2px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 25px 15px 2px 2px rgb(235, 158, 158);
 }
 
 
 .card-title {
 	height: 40px;
-	background-color:rgba(215,215,215,.7);
-	padding: 0.5em 0.5em;
+	background-color:#cbd5ec;
 	margin-bottom: 0.45rem;
+	border-radius: 0.75em 0.75em 0 0;
 }
 .card-body {
 	display: flex;
-	padding: 0.5em;
-	padding-top: 0;
+	align-items: center;
 }
+
 .card-logo {
 	display: block;
 	width: 100px;
@@ -96,7 +103,8 @@ h1, h4 {
 
 
 .card-content {
-	margin-left: 0.5rem;
+	margin: 0.5rem;
+	margin-left: 1em;
 	padding-right: 0.2rem;
 }
 
@@ -121,7 +129,7 @@ h1, h4 {
 .footer {
 	width: 100%;
 	height: 150px;
-	background-color: #0000001a;
+	background-color: #cbd5ec;
 	margin-top: 5em;
 	font-size: 14px;
 }

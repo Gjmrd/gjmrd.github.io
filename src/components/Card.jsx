@@ -8,10 +8,10 @@ class Card extends Component {
       <div className="col-md-4">
       <a href={link} target="_blank">
         <div className="card">
-          <div className="card-title">
+          <div className="card-title blockPadding">
             {name}
           </div>
-          <div className="card-body">
+          <div className="card-body blockPadding">
             <div className="card-logo">
               <img src={require('../img/'+logo)} alt={name} />
             </div>
